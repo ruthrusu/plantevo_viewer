@@ -1,3 +1,142 @@
-#message{
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial, sans-serif;
+    background-color:#6A7B42;
+}
+/*Mise en forme du header*/
+.fondhead{
+    background-image:url("image/fondheader.jpeg");
+    background-size:cover;
+    background-position:center;
+    text-align:center;
+    padding:20px;
+    padding-bottom:50px;
+    margin-top:70px;
+
+}
+.accroche{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.navigbarre{
+    color:white;
+    text-decoration:none;
+    margin-left:15px;
+    margin-bottom:150px;
+    font-size: 20px;
+}
+.logo{
+    width:200px;
+    height:100px;
+    border-radius:30%;
+    display:block;
+    margin:0 auto;
+    position:relative;
+    top:-100px;
+}
+.mot2{
+    margin-bottom:55px;
+    text-align:center;
+    font-size:50px;
+    color:#C9F367;
+    font-weight:800;
+    position:relative;
+    top:-50px; 
+    -webkit-text-stroke:2px black;
+}
+.mot1{
+  font-size:60px;
+  font-weight:900;
+  color:#000;
+  margin-bottom:100;
+  position:relative;
+  top:-90px; 
+  -webkit-text-stroke:2px #C9F367; 
+}
+#titre2{
+    margin-bottom:75px;
+    font-size:45px;
+    margin:25px;
+    font-family:Kanit;
+    color:#FFFF;
+    margin-top:40px;
+    -webkit-text-stroke:1px black;
+}
+
+.titre3{
+    font-family:Kay Pho Du;
+    text-align:center;
+    margin:30px;
+    color:#000;
+    line-height:1.8;
+    font-size:40px;
+    font-weight:150;
+}
+.titre4{
+  font-family:Kanit;
+  text-align:center;
+  font-weight:700;
+  color:white;
+  font-size:45px;
+  font-weight:500;
+  -webkit-text-stroke:1px #4D6632;
+}
+/*AJOUT D'IMAGE DE FOND POUR LE MAIN*/
+main{
+    background-image:url(image/fondheader.jpeg);
+    background-size:cover;
+    background-position:center;
+    padding:20px;
+    text-align:center;
+    color:white;
+}
+/*REGROUPEMENT EN BLOC DES ELEMENTS DU MAIN*/
+.section{
+    text-align:center;
+    padding:20px 10px;
+}
+.cartes{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:15px;
+    max-width:600px;
+    margin:0 auto 20px auto;
+}
+.cartes > div{
+    background-color:rgba(0,0,0,0.40);
+    border-radius:15px;
+    padding:15px 10px;
     text-align:center
+}
+
+.cartes > div img{
+    width:100px;
+    height:100px;
+    object-fit:cover;
+    border-radius:50%;
+    display:block;
+    margin:0 auto;
+}
+.cartes > div h4{
+    color:#C9F367; 
+    font-size:20px;
+    margin:10px 0px 2px;
+    font-family:kanit;
+}
+.cartes > div a{
+    color: white; 
+    font-size:15px;
+    text-decoration:none;
+    font-family:kanit;
+}
+.roadmap{
+    color:white;
+    font-size:20px;
+    font-family:kanit;
+    text-decoration:none;
 }
