@@ -8,36 +8,28 @@ body{
     background-color:#6A7B42;
 }
 /*Mise en forme du header*/
-.fondhead{
-    background-image:url("image/fondheader.jpeg");
-    background-size:cover;
-    background-position:center;
-    text-align:center;
-    padding:20px;
-    padding-bottom:50px;
-    margin-top:70px;
-
-}
 .accroche{
+    background-color:#C9F367;
+    border-radius:20px 0px 20px 0px;
     display:flex;
     justify-content: space-between;
     align-items:center;
+    padding:2px;
+    margin:15px;
 }
 .navigbarre{
-    color:white;
-    text-decoration:none;
-    margin-left:15px;
-    margin-bottom:150px;
-    font-size: 20px;
+    display:flex;
+    gap:10px;
+}
+.titrelogo{
+    display:flex;
+    align-items:center;
+    gap:10px 15px;
 }
 .logo{
     width:200px;
-    height:100px;
+    height:125px;
     border-radius:30%;
-    display:block;
-    margin:0 auto;
-    position:relative;
-    top:-100px;
 }
 .mot2{
     margin-bottom:55px;
@@ -139,4 +131,30 @@ main{
     font-size:20px;
     font-family:kanit;
     text-decoration:none;
+}
+.footer1{
+    background-color:#C9F367;
+    color:black;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    texte-align:center;
+    border-radius:0px 20px 0px 20px;
+    padding:15px;
+    margin:15px;
+    font-family:kanit;  
+}
+.footer2{
+    background-color:#C9F367;
+    color:black;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    texte-align:center;
+    border-radius:0px 20px 0px 20px;
+    padding:15px;
+    margin:15px;
+    font-family:kanit;
 }
