@@ -1,3 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(image/fondheader.jpeg);
+    background-size:cover;
+    background-position:center;
+    padding:20px;
+    text-align:center;
+    color:white;
+}
+/*AJOUT DU HEADER*/
 .accroche{
     background-color:#F2F4DF;
     border-radius:20px 0px 20px 0px;
@@ -27,4 +41,94 @@
     width:200px;
     height:125px;
     border-radius:30%;
+}
+/*AJOUT DU PIED DE PAGE*/
+  .footer1{
+    background-color:#C9F367;
+    color:black;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    texte-align:center;
+    border-radius:0px 20px 0px 20px;
+    padding:15px;
+    margin:15px;
+    font-family:kanit;  
+}
+.footer2{
+    background-color:#C9F367;
+    color:black;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    texte-align:center;
+    border-radius:0px 20px 0px 20px;
+    padding:15px;
+    margin:15px;
+    font-family:kanit;
+}
+/*AJOUT DU MAIN*/
+.carte1{
+    background-color:rgba(46,125,50,0.50);
+    margin:15px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    border-radius:15px;
+    align-items:center;
+    padding: 10px 20px;
+    margin-bottom:15px;
+}
+.p1{
+    margin:10px;
+}
+.p2{
+    margin:10px;
+}
+.carte2{
+    display:flex;
+    flex-direction:row;
+    justify-content:center; 
+    align-items:center;
+}
+.carte2 > img{
+    width:300px;
+    height:300px;
+    object-fit:cover;
+    border-radius:50%;
+    display:block;
+    margin-left:20px;
+}
+.acces1{
+    background-color:rgba(46,125,50,0.50);
+    gap:15px;
+    border-radius:15px;
+}
+.i1{
+    width:1000px;
+    height:500px;
+    border-radius:15px;
+    margin:30px;
+    margin-left:10px;
+}
+.carte3{
+    display:flex;
+    flex-direction:row;
+    justify-content:center; 
+    align-items:center;
+}
+.acces2{
+    background-color:rgba(46,125,50,0.50);
+    gap:15px;
+    border-radius:15px;
+}
+.i2{
+    width:250px;
+    height:250px;
+    object-fit:cover;
+    border-radius:50%;
+    display:block;
+    margin-left:20px;
 }
