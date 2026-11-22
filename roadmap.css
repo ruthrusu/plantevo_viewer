@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(image/fondheader.jpeg);
+    background-size:cover;
+    background-position:center;
+    padding:20px;
+    text-align:center;
+    color:white;
+}
+/*AJOUT DU HEADER*/
+.accroche{
+    background-color:#F2F4DF;
+    border-radius:20px 0px 20px 0px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:2px;
+    margin:15px;
+}
+.navigbarre{
+    display:flex;
+    gap:20px;
+    font-family:kanit;
+    font-weight:700;
+    color:black;
+}
+.titrelogo{
+    display:flex;
+    align-items:center;
+    gap:10px 15px;
+    font-family:kanit;
+    font-size:25px;
+    font-weight:700;
+    color:#4D6632;
+}
+.logo{
+    width:200px;
+    height:125px;
+    border-radius:30%;
+}
+.pic3{
+    width:900px;
+    height:450;
+    border-radius:10%;
+    display:block;
+    margin:0 auto;
+}
+/*AJOUT DU PIED DE PAGE*/
+  .footer1{
+    background-color:#C9F367;
+    color:black;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    border-radius:0px 20px 0px 20px;
+    padding:15px;
+    margin:15px;
+    font-family:kanit;  
+}
+.footer2{
+    background-color:#C9F367;
+    color:black;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    text-align:center;
+    border-radius:0px 20px 0px 20px;
+    padding:15px;
+    margin:15px;
+    font-family:kanit;
+}
