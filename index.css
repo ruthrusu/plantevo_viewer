@@ -71,7 +71,7 @@ body{
 }
 
 .titre3{
-    font-family:Katibeh;
+    font-family:Lily Script One;
     text-align:center;
     margin:30px;
     color:#000;
@@ -80,12 +80,12 @@ body{
     font-weight:150;
 }
 .titre4{
-  font-family:Keania One;
+  font-family:Lily Script One;
   text-align:center;
   font-weight:700;
-  color:white;
   font-size:27px;
-  font-weight:800;;
+  font-weight:800;
+  color:white;
 }
 /*REGROUPEMENT EN BLOC DES ELEMENTS DU MAIN*/
 .section{
@@ -100,7 +100,7 @@ body{
     margin:0 auto 20px auto;
 }
 .cartes > div{
-    background-color:rgba(0,0,0,0.50);
+    background-color:rgba(46,125,50,0.50);
     border-radius:15px;
     padding:15px 10px;
     text-align:center
