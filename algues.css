@@ -58,17 +58,20 @@
     font-family:kanit;
 }
 /*AJOUT DU MAIN*/
-main section{
-    width:600px;
-    margin:0 auto;
-}
 .carte1{
     background-color:rgba(46,125,50,0.50);
-    display: flex;
-    flex-dicrection:column;
+    margin:15px;
+    display:flex;
+    flex-direction:column;
     justify-content:center;
     border-radius:15px;
     align-items:center;
-    gap:30px;
-    
+    padding: 10px 20px;
+    margin-bottom:15px;
+}
+.p1{
+    margin:10px;
+}
+.p2{
+    margin:10px;
 }
