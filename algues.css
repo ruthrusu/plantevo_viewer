@@ -1,3 +1,4 @@
+/*AJOUT DU HEADER*/
 .accroche{
     background-color:#F2F4DF;
     border-radius:20px 0px 20px 0px;
@@ -27,4 +28,47 @@
     width:200px;
     height:125px;
     border-radius:30%;
+}
+
+/*AJOUT DU PIED DE PAGE*/
+  .footer1{
+    background-color:#C9F367;
+    color:black;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    texte-align:center;
+    border-radius:0px 20px 0px 20px;
+    padding:15px;
+    margin:15px;
+    font-family:kanit;  
+}
+.footer2{
+    background-color:#C9F367;
+    color:black;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    texte-align:center;
+    border-radius:0px 20px 0px 20px;
+    padding:15px;
+    margin:15px;
+    font-family:kanit;
+}
+/*AJOUT DU MAIN*/
+main section{
+    width:600px;
+    margin:0 auto;
+}
+.carte1{
+    background-color:rgba(46,125,50,0.50);
+    display: flex;
+    flex-dicrection:column;
+    justify-content:center;
+    border-radius:15px;
+    align-items:center;
+    gap:30px;
+    
 }
