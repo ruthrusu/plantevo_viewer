@@ -1,0 +1,30 @@
+.accroche{
+    background-color:#F2F4DF;
+    border-radius:20px 0px 20px 0px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:2px;
+    margin:15px;
+}
+.navigbarre{
+    display:flex;
+    gap:20px;
+    font-family:kanit;
+    font-weight:700;
+    color:black;
+}
+.titrelogo{
+    display:flex;
+    align-items:center;
+    gap:10px 15px;
+    font-family:kanit;
+    font-size:25px;
+    font-weight:700;
+    color:#4D6632;
+}
+.logo{
+    width:200px;
+    height:125px;
+    border-radius:30%;
+}
